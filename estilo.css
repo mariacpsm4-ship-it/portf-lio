@@ -224,3 +224,32 @@ h3 {
         max-width: 100%;
     }
 }                          
+/* Competências */
+.competencias {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 30px auto;
+}
+
+.competencia-card {
+    background-color: #fff0f5;
+    border-radius: 15px;
+    padding: 25px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.competencia-card h3 {
+    text-align: center;
+    color: #c45b83;
+    margin-bottom: 15px;
+}
+
+.competencia-card ul {
+    padding-left: 25px;
+    margin-bottom: 0;
+}
