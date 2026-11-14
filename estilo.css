@@ -1,0 +1,226 @@
+body {
+    background-color: #fff5f8;
+    color: #343039;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+ 
+.header {
+    background-color: #f8dce8;
+    padding: 20px;
+    text-align: center;
+}
+ 
+.logo {
+    color: #343039;
+    text-decoration: none;
+    font-weight: bold;
+}
+ 
+.menu {
+    text-align: center;
+    padding: 15px;
+}
+ 
+.nav-link {
+    color: #343039;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px;
+}
+ 
+.nav-link:hover {
+    color: #d77fa3;
+}
+ 
+main {
+    padding: 20px;
+}
+ 
+.home, .conhecimentos, .tecnologias, .projetos, .contato {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+ 
+h2 {
+    color: #b85f83;
+}
+ 
+h3 {
+    color: #d77fa3;
+}
+ 
+ 
+ 
+.projeto {
+    background-color: #f8dce8;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+ 
+input, textarea {
+    display: block;
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #e5b5c9;
+    border-radius: 8px;
+}
+ 
+button {
+    background-color: #d77fa3;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.conhecimentos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+.conhecimentos h2 {
+    width: 100%;
+}
+ 
+.area {
+    background-color: #f8dce8;
+    width: 40%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+ 
+.area h3 {
+    text-align: center;
+}
+.tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ 
+.tecnologias h2 {
+    width: 100%;
+}
+ 
+.projeto img {
+   
+        width: 280px;
+        height: 180px;
+        object-fit: contain;
+        border-radius: 10px;
+        display: block;
+        margin: 10px auto;
+}
+.home img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto;
+}
+h1 {
+    color: #b85f83;
+    text-align: center;
+}
+ 
+h2 {
+    color: #b85f83;
+    text-align: center;
+}
+ 
+h3 {
+    color: #c76d91;
+}
+.projeto {
+    border: 1px solid #f2c5d7;
+    box-shadow: 2px 3px 10px #f3dce5;
+}
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+ 
+.home p {
+    max-width: 750px;
+    width: 100%;
+    text-align: center;
+    line-height: 1.6;
+    margin: 8px auto;
+}
+ 
+.home img {
+    margin: 15px;
+}
+.menu .nav-link {
+    display: inline-block;
+}
+ 
+ 
+.area {
+    width: 90%;
+    box-sizing: border-box;
+}
+ 
+.trabalho {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    box-sizing: border-box;
+    margin: 1%;
+}
+ 
+.trabalho img {
+    width: 100%;
+    height: 120px;
+    object-fit: contain;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+}        
+/* Ajustes para celulares e tablets */
+@media (max-width: 768px) {
+
+    main {
+        padding: 10px;
+    }
+
+    .home {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .area {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 10px 0;
+    }
+
+    .trabalho {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .menu .nav-link {
+        display: inline-block;
+        margin: 5px;
+    }
+
+    input, textarea {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .projeto img {
+        max-width: 100%;
+    }
+}                          
